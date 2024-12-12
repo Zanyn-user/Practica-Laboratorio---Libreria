@@ -15,8 +15,8 @@ public class Libreria {
         Cliente cliente = new Cliente ("Eddy Laje", 001);
         Cliente cliente2 = new Cliente ("Anahi Andi", 002);
         
-        Libro libro1 = new Libro ("El amor en los tiempos del colera", "Gabriel García Márquez",15.0,Genero.Ficcion);
-        Libro libro2 = new Libro ("Sapiens: De animales a dioses", "Yuval Noah Harari",18.0,Genero.NoFiccion);
+        Libro libro1 = new Libro ("El amor en los tiempos del colera", "Gabriel García Márquez",15.0,Genero.FICCION);
+        Libro libro2 = new Libro ("Sapiens: De animales a dioses", "Yuval Noah Harari",18.0,Genero.NOFICCION);
         
         
         Compras compra = new Compras();
